@@ -1,0 +1,61 @@
+progress[value] {
+  width: 500px;
+  height: 20px;
+  color: blue !important; 
+  background-color: #241c31;
+  border-radius: 2px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+.image {
+  margin:6px 6px;
+  border: 5px solid rgb(183, 174, 199);
+  box-shadow:rgb(36, 28, 49) 2px 2px 8px 2px;
+  cursor: pointer;
+  width: 250px !important;
+  }
+  .imgGallery {
+    margin:6px 6px;
+    border: 5px solid rgb(183, 174, 199);
+    box-shadow:#241c31 2px 2px 8px 2px;
+    cursor: pointer;
+    width: 250px;
+  }
+  .openImage {
+    
+    border: 5px solid rgb(183, 174, 199);
+    box-shadow:rgb(36, 28, 49) 2px 2px 8px 2px;
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 800px !important;
+    max-height: 550px !important;
+  }
+  .image:hover {
+    width: 200px;
+    margin: 0 auto;
+  border: 5px solid rgb(183, 174, 199);
+  box-shadow:#241c31 2px 2px 8px 2px;
+    opacity: 0.8;
+  }
+
+  .imageZoom {
+    margin: 0 auto;
+  border: 5px solid rgb(183, 174, 199);
+  box-shadow:rgb(36, 28, 49) 2px 2px 8px 2px;
+    width: 50%;
+  }
+
+  .closeButton {
+    position: absolute;
+    width: 50px;
+    transform: rotate(45deg);
+    opacity: 0.3;
+    cursor: pointer;
+    transition: transform 0.2s linear;
+  }
+
+  .closeButton:hover {
+    transform: rotate(135deg);
+  }
+
+  

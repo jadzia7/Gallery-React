@@ -1,0 +1,17 @@
+.containerForm{
+    color: #111;
+    background-color: rgb(183, 174, 199); 
+    box-shadow: 0 4px 8px 0 rgba(21, 12, 32, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 800px;
+    padding: 5%;
+    border-radius: 3px;
+    text-align: center;
+    margin: 0 auto;
+  }
+.buttonForm{
+  font-size: 20px;
+  color: white !important; 
+  line-height: 60px;
+  height: 60px;
+  background-color: rgb(36, 28, 49) !important; 
+  border: none;}
